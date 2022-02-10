@@ -1,70 +1,20 @@
-# Dotbot Template
-Template repository for advanced [Dotbot](https://github.com/anishathalye/dotbot) configuration.
+# DarkRodry dotfiles
 
-For getting started, please review the [Wiki](https://github.com/ecarlson94/dotbot-template/wiki)!
+This is my personal dotfiles repository. Enjoy it!
 
-The structure of this repository is heavily inspired by [vsund](https://github.com/vsund/dotfiles) and [vbrandl](https://github.com/vbrandl/dotfiles).
+My dotfiles use [dotbot](https://github.com/anishathalye/dotbot/) to automatize the installation process.
 
-## Table of Contents
-<!-- TOC GFM -->
+## Install
 
-- [Dependencies](#dependencies)
-- [Installation](#installation)
-    - [For installing a predefined profile:](#for-installing-a-predefined-profile)
-    - [For installing single configurations:](#for-installing-single-configurations)
-- [Contents](#contents)
-    - [Profiles](#profiles)
-    - [Configs](#configs)
-- [License](#license)
+To install this dotfiles, clone the repository and execute `./install`.
 
-<!-- /TOC -->
+The script will create symlink for all the dotfiles to the repository, install some applications and configure the system. If you update the repository you could also update the dotfiles running the script again.
 
-## Dependencies
-- git
+## Thanks
 
-## Installation
+I use some repos as inspiration to create my dotfiles:
 
-```bash
-~$ git clone --recursive https://github.com/OWNER/REPO.git ~/.REPO
-~$ cd ~/.REPO
-```
-
-### For installing a predefined profile:
-
-```bash
-~/.REPO$ ./install-profile <profile> [<configs...>]
-```
-See [meta/profiles/](./meta/profiles) for available profiles
-
-
-### For installing single configurations:
-
-```bash
-~/.REPO$ ./install-standalone <configs...>
-```
-See [meta/configs/](./meta/configs) for available configurations
-
-_*Note:*_ Any configuration can be run as sudo by adding `-sudo` to the end of it when invoking the install script.
-*DO NOT* run the script as a sudoer.
-
-## Contents
-
-### Profiles
-<pre>
-meta/profiles
-├── <a href="./meta/profiles/exampleOS1" title="exampleOS1">exampleOS1</a>
-└── <a href="./meta/profiles/exampleOS2" title="exampleOS2">exampleOS2</a>
-</pre>
-
-### Configs
-<pre>
-meta
-├── <a href="./meta/base.yaml" title="base.yaml">base.yaml</a>
-└── configs
-    ├── <a href="./meta/configs/example-config-1.yaml" title="example-config-1.yaml">example-config-1.yaml</a>
-    └── <a href="./meta/configs/example-config-2.yaml" title="example-config-2.yaml">example-config-2.yaml</a>
-</pre>
-
-## License
-This software is hereby released under an MIT License. That means you can do whatever you want with conditions only requiring preservation of copyright and license notices.
-See [LICENSE](./LICENSE) for details.
+- [dotbot](https://github.com/anishathalye/dotbot/)
+- [dotbot-template](https://github.com/ecarlson94/dotbot-template)
+- [JesusMtnez dotfiles](https://github.com/JesusMtnez/dotfiles)
+- [webpro awesome dotfiles](https://github.com/webpro/awesome-dotfiles)

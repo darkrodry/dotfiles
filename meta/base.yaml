@@ -7,11 +7,8 @@
         stdout: true
         stderr: true
 
-- create:
-    - $HOME/.config
+- clean: ["~"]
 
-- clean:
-    $HOME:
-        force: true
-    $HOME/.config:
-        recursive: true
+- link:
+    ~/.gitconfig: config/git/gitconfig
+    ~/.gitignore_global: config/git/gitignore

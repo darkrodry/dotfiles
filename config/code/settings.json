@@ -1,0 +1,23 @@
+{
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+	},
+	"editor.bracketPairColorization.enabled": true,
+	"editor.defaultFormatter": "dbaeumer.vscode-eslint",
+	"editor.fontFamily": "'Cascadia Code', Menlo, Monaco, 'Courier New', monospace",
+	"editor.formatOnSave": true,
+	"editor.guides.bracketPairs": true,
+	"editor.tabSize": 2,
+	"eslint.alwaysShowStatus": true,
+	"eslint.format.enable": true,
+	"files.trimTrailingWhitespace": true,
+	"terminal.external.linuxExec": "iterm",
+	"vsicons.dontShowNewVersionMessage": true,
+	"workbench.colorTheme": "Dracula"
+}
