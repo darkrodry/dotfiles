@@ -1,10 +1,10 @@
 - shell:
-    - description: "[ZSH] Installing Oh-My-Zsh"
+    - description: "[zsh] Installing Oh-My-Zsh"
       command: >
         [ -d ~/.oh-my-zsh ] ||
         git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 
-    - description: "[ZSH] Installing dracula theme"
+    - description: "[zsh] Installing dracula theme"
       command: >
         [ -d config/zsh/themes/dracula ] ||
         git clone https://github.com/dracula/zsh.git config/zsh/themes/dracula
