@@ -1,0 +1,11 @@
+- cask:
+    - postman
+    - slack
+
+- shell:
+    - description: "[work] Installing plugins"
+      command: >
+        code \
+          --install-extension Arjun.swagger-viewer \
+          --install-extension ms-azuretools.vscode-docker \
+          --install-extension ms-vsliveshare.vsliveshare \

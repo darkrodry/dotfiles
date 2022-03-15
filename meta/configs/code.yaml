@@ -3,7 +3,6 @@
       command: >
         code \
           --install-extension alefragnani.project-manager \
-          --install-extension Arjun.swagger-viewer \
           --install-extension dbaeumer.vscode-eslint \
           --install-extension dracula-theme.theme-dracula \
           --install-extension eamodio.gitlens \
@@ -15,7 +14,6 @@
           --install-extension MS-CEINTL.vscode-language-pack-es \
           --install-extension ms-mssql.mssql \
           --install-extension ms-python.python \
-          --install-extension ms-vsliveshare.vsliveshare \
           --install-extension Orta.vscode-jest \
           --install-extension pnp.polacode \
           --install-extension redhat.vscode-yaml
