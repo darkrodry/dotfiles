@@ -8,4 +8,5 @@
         code \
           --install-extension Arjun.swagger-viewer \
           --install-extension ms-azuretools.vscode-docker \
+          --install-extension ms-mssql.mssql \
           --install-extension ms-vsliveshare.vsliveshare \
