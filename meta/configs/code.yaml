@@ -10,7 +10,6 @@
           --install-extension esbenp.prettier-vscode \
           --install-extension HookyQR.beautify \
           --install-extension marclipovsky.string-manipulation \
-          --install-extension ms-azuretools.vscode-docker \
           --install-extension MS-CEINTL.vscode-language-pack-es \
           --install-extension ms-mssql.mssql \
           --install-extension ms-python.python \

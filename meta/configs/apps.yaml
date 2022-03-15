@@ -1,0 +1,18 @@
+- brew:
+    - httpie
+    - wget
+    - yarn
+
+- cask:
+    - caffeine
+    - docker
+    - firefox
+    - iterm2
+    - rectangle
+    - spotify
+    - telegram-desktop
+    - the-unarchiver
+    - visual-studio-code
+
+- shell:
+    - defaults write com.intelliscapesolutions.caffeine SuppressLaunchMessage -int 1
