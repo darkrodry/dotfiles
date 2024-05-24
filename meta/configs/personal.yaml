@@ -1,4 +1,5 @@
 - cask:
     - calibre
     - discord
+    - telegram-desktop
     - vlc

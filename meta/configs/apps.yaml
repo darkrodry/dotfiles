@@ -8,13 +8,14 @@
     - docker
     - firefox
     - iterm2
+    - logi-options-plus
     - notion
     - rectangle
     - scroll-reverser
     - spotify
-    - telegram-desktop
     - the-unarchiver
     - visual-studio-code
 
 - shell:
+    - curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
     - defaults write com.intelliscapesolutions.caffeine SuppressLaunchMessage -int 1
