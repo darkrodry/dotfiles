@@ -13,3 +13,6 @@
     ~/zshconfig: config/zsh/zshconfig
     ~/.zshrc: config/zsh/zshrc
     ~/.oh-my-zsh/themes/dracula.zsh-theme: config/zsh/themes/dracula/dracula.zsh-theme
+
+- shell:
+    - git update-index --skip-worktree config/zsh/zshconfig/local.sh
