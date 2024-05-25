@@ -19,3 +19,7 @@
 - shell:
     - curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
     - defaults write com.intelliscapesolutions.caffeine SuppressLaunchMessage -int 1
+    - defaults delete com.pilotmoon.scroll-reverser ReverseMouse
+    - defaults write com.pilotmoon.scroll-reverser ReverseTrackpad -int 0
+    - defaults delete com.pilotmoon.scroll-reverser ReverseX
+    - defaults delete com.pilotmoon.scroll-reverser ReverseY
