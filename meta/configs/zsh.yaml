@@ -10,5 +10,6 @@
         git clone https://github.com/dracula/zsh.git config/zsh/themes/dracula
 
 - link:
+    ~/zshconfig: config/zsh/zshconfig
     ~/.zshrc: config/zsh/zshrc
     ~/.oh-my-zsh/themes/dracula.zsh-theme: config/zsh/themes/dracula/dracula.zsh-theme

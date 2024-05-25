@@ -5,3 +5,4 @@ credentials.*
 *.pkrvars.hcl
 .nvimlog
 config/zsh/themes/**
+config/zsh/zshconfig/local.sh
