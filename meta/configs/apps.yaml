@@ -17,7 +17,7 @@
     - visual-studio-code
 
 - shell:
-    - curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+    - if !command -v nvm &> /dev/null; then curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash; else echo "nvm already installed, skipping"; fi;
 
 - shell:
     - defaults write com.intelliscapesolutions.caffeine SuppressLaunchMessage -int 1
