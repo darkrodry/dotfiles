@@ -3,15 +3,12 @@
       command: >
         code \
           --install-extension alefragnani.project-manager \
-          --install-extension dbaeumer.vscode-eslint \
           --install-extension dracula-theme.theme-dracula \
           --install-extension eamodio.gitlens \
           --install-extension EditorConfig.EditorConfig \
           --install-extension esbenp.prettier-vscode \
-          --install-extension HookyQR.beautify \
           --install-extension marclipovsky.string-manipulation \
           --install-extension MS-CEINTL.vscode-language-pack-es \
           --install-extension ms-python.python \
-          --install-extension Orta.vscode-jest \
           --install-extension pnp.polacode \
           --install-extension redhat.vscode-yaml
