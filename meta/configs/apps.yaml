@@ -4,11 +4,11 @@
 
 - cask:
     - caffeine
-    - docker
     - firefox
     - iterm2
     - logi-options-plus
     - notion
+    - orbstack
     - rectangle
     - scroll-reverser
     - spotify
