@@ -1,5 +1,10 @@
+- shell:
+  - description: "[apps] Configuring brew"
+    command: brew tap localsend/localsend
+
 - brew:
     - httpie
+    - localsend
     - wget
 
 - cask:
