@@ -1,4 +1,5 @@
 - cask:
+    - dbeaver-community
     - meetingbar
     - postman
     - postico
