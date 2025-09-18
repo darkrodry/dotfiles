@@ -4,6 +4,7 @@
     - postman
     - postico
     - slack
+    - tunnelblick
 
 - shell:
     - description: "[work] Installing plugins"
