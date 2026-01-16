@@ -1,4 +1,8 @@
 - shell:
+  - description: "[apps] Installing Rosetta"
+    command: softwareupdate --install-rosetta --agree-to-license
+
+- shell:
   - description: "[apps] Configuring brew"
     command: brew tap localsend/localsend
 
